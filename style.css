@@ -27,3 +27,7 @@ h1 {
 .hide {
     overflow: hidden;
 }
+
+#main, h1 {
+    user-select: none;
+}
