@@ -33,4 +33,6 @@ function handleMouseUp(ev) {
 anim()
 
 document.querySelector("svg").onmousedown = handleMouseDown
+document.querySelector("svg").ontouchstart = handleMouseDown
 window.onmouseup = handleMouseUp
+window.ontouchend = handleMouseUp
