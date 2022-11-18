@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animations</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -15,15 +16,14 @@
         </clipPath>
 
         <circle id="fill-mask" clip-path="url(#clip)" cx="50" cy="150" r="100" fill="red">
-            <!-- <animate attributeName="cy"
-            values="200;20;150" 
-            dur="10s"
-            repeatCount="indefinite" /> -->
         </circle>
-        <text x="50" y="50" fill="white"
+        <text x="50" y="40" fill="white"
             dominant-baseline="middle"
             text-anchor="middle">I love you!</text>
     </svg>
+    <div class="hide">
+    <h1>Happy Birthday!!</h1>
+</div>
 </div>
 </body>
 </html>
